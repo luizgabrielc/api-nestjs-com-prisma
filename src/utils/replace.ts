@@ -1,0 +1,1 @@
+export type Replace<OrigialType, ReplaceTypes> = Omit<OrigialType, keyof ReplaceTypes> & ReplaceTypes
